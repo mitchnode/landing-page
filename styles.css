@@ -1,0 +1,40 @@
+* {
+    border: red solid 1px;
+}
+
+body {
+    height: 98vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 100%;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
