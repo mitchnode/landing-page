@@ -74,9 +74,9 @@ body {
 }
 
 button {
-    padding: 8px 40px;
+    padding: 8px 35px;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
@@ -132,7 +132,35 @@ h2 {
     padding-right: 20px; 
 }
 
+.calltoaction {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 22px;
+    padding: 50px 100px;
+    margin: 100px 0px;
+    display: flex;
+    gap: 150px;
+    border-radius: 10px;
+}
+
+.calltoaction-text h4 {
+    margin: 0;
+}
+
+.calltoaction-text p{
+    color: #E5E7EB;
+    font-size: 16px;
+    margin: 0;
+}
+
+.calltoaction button {
+    border: #F9FAF8 solid 2px;
+    flex-grow: 0;
+    align-self: center;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
+    text-align: center;
 }
