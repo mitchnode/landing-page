@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1 0 100%;
+    flex-grow: 1;
 }
 
 .header {
@@ -48,6 +48,7 @@ body {
     display: flex;
     padding: 130px 0;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 .hero h1 {
@@ -57,7 +58,7 @@ body {
 }
 
 .hero div {
-    flex-wrap: 1;
+    flex-wrap: wrap;
 }
 
 .hero p {
@@ -94,8 +95,8 @@ h2 {
     margin: 20px 0px 100px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+
 }
 
 .content {
@@ -108,12 +109,14 @@ h2 {
 .cards{
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 156px;
     color: #1F2937;
     text-align: center;
 }
@@ -148,7 +151,7 @@ h2 {
     color:#F9FAF8;
     font-size: 22px;
     padding: 50px 100px;
-    margin: 100px 0px;
+    margin: 100px 100px;
     display: flex;
     gap: 150px;
     border-radius: 10px;
