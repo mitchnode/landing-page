@@ -1,0 +1,178 @@
+body {
+    font-family: roboto, sans-serif;
+    height: 98vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 100%;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 15px 0 0 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 30px;
+    margin: 15px 0 0 0;
+}
+
+.hero {
+    display: flex;
+    padding: 130px 0;
+    gap: 70px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero div {
+    flex-wrap: 1;
+}
+
+.hero p {
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    background-color: rgb(124, 124, 131);
+    text-align: center;
+    color: #E5E7EB;
+    width: 50%;
+}
+
+button {
+    padding: 8px 35px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.top {
+    margin: 20px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border: 3px #3882F6 solid;
+    border-radius: 15px;   
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    padding: 100px 320px;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+    text-align: end;
+    padding-right: 20px; 
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 22px;
+    padding: 50px 100px;
+    margin: 100px 0px;
+    display: flex;
+    gap: 150px;
+    border-radius: 10px;
+}
+
+.calltoaction-text h4 {
+    margin: 0;
+}
+
+.calltoaction-text p{
+    color: #E5E7EB;
+    font-size: 16px;
+    margin: 0;
+}
+
+.calltoaction button {
+    border: #F9FAF8 solid 2px;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
