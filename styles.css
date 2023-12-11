@@ -48,7 +48,6 @@ body {
     display: flex;
     padding: 130px 0;
     gap: 70px;
-    flex-wrap: wrap;
 }
 
 .hero h1 {
@@ -58,7 +57,7 @@ body {
 }
 
 .hero div {
-    flex-wrap: wrap;
+    width: 50%;
 }
 
 .hero p {
@@ -70,8 +69,6 @@ body {
 
 .hero img {
     background-color: rgb(124, 124, 131);
-    text-align: center;
-    color: #E5E7EB;
     width: 50%;
 }
 
